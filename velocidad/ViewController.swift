@@ -26,13 +26,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             locationManager.desiredAccuracy = kCLLocationAccuracyBest
             locationManager.requestAlwaysAuthorization()
             locationManager.startUpdatingLocation()
+            
         }
       
         
         
         
     }
+    var point: MKPointAnnotation! = MKPointAnnotation()
+
+
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+        self.map.removeAnnotation(point)
+        
         var velocidad:CLLocationSpeed = (3.6 * manager.location!.speed)
         speedValue.text = "\(lround(velocidad))"
         
@@ -42,16 +48,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
         
         self.map.setRegion(region, animated: true)
-        var point: MKPointAnnotation! = MKPointAnnotation()
-        
+        point = MKPointAnnotation()
+
         point.coordinate = location.coordinate
         point.title = "Ricardo's iPhone"
         point.subtitle = "Aquí"
         
+        
         self.map.addAnnotation(point)
         
         //save battery life
-        //locationManager.stopUpdatingLocation()
+        locationManager.stopUpdatingLocation()
         
         
     }

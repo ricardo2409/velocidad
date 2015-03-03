@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1998DFEE1AA55AD2009C089D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998DFED1AA55AD2009C089D /* AppDelegate.swift */; };
+		1998DFF01AA55AD2009C089D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998DFEF1AA55AD2009C089D /* ViewController.swift */; };
+		1998DFF31AA55AD2009C089D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF11AA55AD2009C089D /* Main.storyboard */; };
+		1998DFF51AA55AD2009C089D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF41AA55AD2009C089D /* Images.xcassets */; };
+		1998DFF81AA55AD2009C089D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF61AA55AD2009C089D /* LaunchScreen.xib */; };
+		1998E0041AA55AD2009C089D /* velocidadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998E0031AA55AD2009C089D /* velocidadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1998DFFE1AA55AD2009C089D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1998DFE01AA55AD1009C089D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1998DFE71AA55AD2009C089D;
+			remoteInfo = velocidad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1998DFE81AA55AD2009C089D /* velocidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velocidad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1998DFEC1AA55AD2009C089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1998DFED1AA55AD2009C089D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1998DFEF1AA55AD2009C089D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1998DFF21AA55AD2009C089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1998DFF41AA55AD2009C089D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1998DFF71AA55AD2009C089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1998DFFD1AA55AD2009C089D /* velocidadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velocidadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1998E0021AA55AD2009C089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1998E0031AA55AD2009C089D /* velocidadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = velocidadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1998DFE51AA55AD2009C089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1998DFFA1AA55AD2009C089D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1998DFDF1AA55AD1009C089D = {
+			isa = PBXGroup;
+			children = (
+				1998DFEA1AA55AD2009C089D /* velocidad */,
+				1998E0001AA55AD2009C089D /* velocidadTests */,
+				1998DFE91AA55AD2009C089D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1998DFE91AA55AD2009C089D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1998DFE81AA55AD2009C089D /* velocidad.app */,
+				1998DFFD1AA55AD2009C089D /* velocidadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1998DFEA1AA55AD2009C089D /* velocidad */ = {
+			isa = PBXGroup;
+			children = (
+				1998DFED1AA55AD2009C089D /* AppDelegate.swift */,
+				1998DFEF1AA55AD2009C089D /* ViewController.swift */,
+				1998DFF11AA55AD2009C089D /* Main.storyboard */,
+				1998DFF41AA55AD2009C089D /* Images.xcassets */,
+				1998DFF61AA55AD2009C089D /* LaunchScreen.xib */,
+				1998DFEB1AA55AD2009C089D /* Supporting Files */,
+			);
+			path = velocidad;
+			sourceTree = "<group>";
+		};
+		1998DFEB1AA55AD2009C089D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1998DFEC1AA55AD2009C089D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1998E0001AA55AD2009C089D /* velocidadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1998E0031AA55AD2009C089D /* velocidadTests.swift */,
+				1998E0011AA55AD2009C089D /* Supporting Files */,
+			);
+			path = velocidadTests;
+			sourceTree = "<group>";
+		};
+		1998E0011AA55AD2009C089D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1998E0021AA55AD2009C089D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1998DFE71AA55AD2009C089D /* velocidad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1998E0071AA55AD2009C089D /* Build configuration list for PBXNativeTarget "velocidad" */;
+			buildPhases = (
+				1998DFE41AA55AD2009C089D /* Sources */,
+				1998DFE51AA55AD2009C089D /* Frameworks */,
+				1998DFE61AA55AD2009C089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = velocidad;
+			productName = velocidad;
+			productReference = 1998DFE81AA55AD2009C089D /* velocidad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1998DFFC1AA55AD2009C089D /* velocidadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1998E00A1AA55AD2009C089D /* Build configuration list for PBXNativeTarget "velocidadTests" */;
+			buildPhases = (
+				1998DFF91AA55AD2009C089D /* Sources */,
+				1998DFFA1AA55AD2009C089D /* Frameworks */,
+				1998DFFB1AA55AD2009C089D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1998DFFF1AA55AD2009C089D /* PBXTargetDependency */,
+			);
+			name = velocidadTests;
+			productName = velocidadTests;
+			productReference = 1998DFFD1AA55AD2009C089D /* velocidadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1998DFE01AA55AD1009C089D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ricardo Trevino";
+				TargetAttributes = {
+					1998DFE71AA55AD2009C089D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1998DFFC1AA55AD2009C089D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1998DFE71AA55AD2009C089D;
+					};
+				};
+			};
+			buildConfigurationList = 1998DFE31AA55AD1009C089D /* Build configuration list for PBXProject "velocidad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1998DFDF1AA55AD1009C089D;
+			productRefGroup = 1998DFE91AA55AD2009C089D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1998DFE71AA55AD2009C089D /* velocidad */,
+				1998DFFC1AA55AD2009C089D /* velocidadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1998DFE61AA55AD2009C089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1998DFF31AA55AD2009C089D /* Main.storyboard in Resources */,
+				1998DFF81AA55AD2009C089D /* LaunchScreen.xib in Resources */,
+				1998DFF51AA55AD2009C089D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1998DFFB1AA55AD2009C089D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1998DFE41AA55AD2009C089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1998DFF01AA55AD2009C089D /* ViewController.swift in Sources */,
+				1998DFEE1AA55AD2009C089D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1998DFF91AA55AD2009C089D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1998E0041AA55AD2009C089D /* velocidadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1998DFFF1AA55AD2009C089D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1998DFE71AA55AD2009C089D /* velocidad */;
+			targetProxy = 1998DFFE1AA55AD2009C089D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1998DFF11AA55AD2009C089D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1998DFF21AA55AD2009C089D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1998DFF61AA55AD2009C089D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1998DFF71AA55AD2009C089D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1998E0051AA55AD2009C089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1998E0061AA55AD2009C089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1998E0081AA55AD2009C089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = velocidad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1998E0091AA55AD2009C089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = velocidad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1998E00B1AA55AD2009C089D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = velocidadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/velocidad.app/velocidad";
+			};
+			name = Debug;
+		};
+		1998E00C1AA55AD2009C089D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = velocidadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/velocidad.app/velocidad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1998DFE31AA55AD1009C089D /* Build configuration list for PBXProject "velocidad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1998E0051AA55AD2009C089D /* Debug */,
+				1998E0061AA55AD2009C089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1998E0071AA55AD2009C089D /* Build configuration list for PBXNativeTarget "velocidad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1998E0081AA55AD2009C089D /* Debug */,
+				1998E0091AA55AD2009C089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1998E00A1AA55AD2009C089D /* Build configuration list for PBXNativeTarget "velocidadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1998E00B1AA55AD2009C089D /* Debug */,
+				1998E00C1AA55AD2009C089D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1998DFE01AA55AD1009C089D /* Project object */;
+}

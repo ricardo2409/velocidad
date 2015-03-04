@@ -13,6 +13,17 @@
 		1998DFF51AA55AD2009C089D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF41AA55AD2009C089D /* Images.xcassets */; };
 		1998DFF81AA55AD2009C089D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF61AA55AD2009C089D /* LaunchScreen.xib */; };
 		1998E0041AA55AD2009C089D /* velocidadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998E0031AA55AD2009C089D /* velocidadTests.swift */; };
+		1998E0241AA7599F009C089D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0231AA7599F009C089D /* GoogleMobileAds.framework */; };
+		1998E0261AA759CA009C089D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0251AA759CA009C089D /* AdSupport.framework */; };
+		1998E0281AA759CF009C089D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0271AA759CF009C089D /* AudioToolbox.framework */; };
+		1998E02A1AA759D5009C089D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0291AA759D5009C089D /* AVFoundation.framework */; };
+		1998E02C1AA759DA009C089D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E02B1AA759DA009C089D /* CoreGraphics.framework */; };
+		1998E02E1AA759DF009C089D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E02D1AA759DF009C089D /* CoreTelephony.framework */; };
+		1998E0311AA759E7009C089D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E02F1AA759E7009C089D /* EventKit.framework */; };
+		1998E0321AA759E7009C089D /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0301AA759E7009C089D /* EventKitUI.framework */; };
+		1998E0341AA759EC009C089D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0331AA759EC009C089D /* MessageUI.framework */; };
+		1998E0361AA759F1009C089D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0351AA759F1009C089D /* StoreKit.framework */; };
+		1998E0381AA759F7009C089D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0371AA759F7009C089D /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +45,18 @@
 		1998DFF41AA55AD2009C089D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1998DFF71AA55AD2009C089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1998DFFD1AA55AD2009C089D /* velocidadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velocidadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1998E0021AA55AD2009C089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1998E0031AA55AD2009C089D /* velocidadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = velocidadTests.swift; sourceTree = "<group>"; };
+		1998E0231AA7599F009C089D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../GoogleMobileAdsSdkiOS-7.0.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		1998E0251AA759CA009C089D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		1998E0271AA759CF009C089D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1998E0291AA759D5009C089D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1998E02B1AA759DA009C089D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1998E02D1AA759DF009C089D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1998E02F1AA759E7009C089D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		1998E0301AA759E7009C089D /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		1998E0331AA759EC009C089D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1998E0351AA759F1009C089D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1998E0371AA759F7009C089D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1998E0381AA759F7009C089D /* SystemConfiguration.framework in Frameworks */,
+				1998E0361AA759F1009C089D /* StoreKit.framework in Frameworks */,
+				1998E0341AA759EC009C089D /* MessageUI.framework in Frameworks */,
+				1998E0311AA759E7009C089D /* EventKit.framework in Frameworks */,
+				1998E0321AA759E7009C089D /* EventKitUI.framework in Frameworks */,
+				1998E02E1AA759DF009C089D /* CoreTelephony.framework in Frameworks */,
+				1998E02C1AA759DA009C089D /* CoreGraphics.framework in Frameworks */,
+				1998E02A1AA759D5009C089D /* AVFoundation.framework in Frameworks */,
+				1998E0281AA759CF009C089D /* AudioToolbox.framework in Frameworks */,
+				1998E0261AA759CA009C089D /* AdSupport.framework in Frameworks */,
+				1998E0241AA7599F009C089D /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +91,17 @@
 		1998DFDF1AA55AD1009C089D = {
 			isa = PBXGroup;
 			children = (
+				1998E0371AA759F7009C089D /* SystemConfiguration.framework */,
+				1998E0351AA759F1009C089D /* StoreKit.framework */,
+				1998E0331AA759EC009C089D /* MessageUI.framework */,
+				1998E02F1AA759E7009C089D /* EventKit.framework */,
+				1998E0301AA759E7009C089D /* EventKitUI.framework */,
+				1998E02D1AA759DF009C089D /* CoreTelephony.framework */,
+				1998E02B1AA759DA009C089D /* CoreGraphics.framework */,
+				1998E0291AA759D5009C089D /* AVFoundation.framework */,
+				1998E0271AA759CF009C089D /* AudioToolbox.framework */,
+				1998E0251AA759CA009C089D /* AdSupport.framework */,
+				1998E0231AA7599F009C089D /* GoogleMobileAds.framework */,
 				1998DFEA1AA55AD2009C089D /* velocidad */,
 				1998E0001AA55AD2009C089D /* velocidadTests */,
 				1998DFE91AA55AD2009C089D /* Products */,
@@ -99,17 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				1998E0031AA55AD2009C089D /* velocidadTests.swift */,
-				1998E0011AA55AD2009C089D /* Supporting Files */,
 			);
 			path = velocidadTests;
-			sourceTree = "<group>";
-		};
-		1998E0011AA55AD2009C089D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1998E0021AA55AD2009C089D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +370,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ricardotrevino/Desktop/GoogleMobileAdsSdkiOS-7.0.0",
+				);
 				INFOPLIST_FILE = velocidad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/ricardotrevino/Desktop/GoogleMobileAdsSdkiOS-7.0.0",
+				);
 				INFOPLIST_FILE = velocidad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,7 +406,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = velocidadTests/Info.plist;
+				INFOPLIST_FILE = velocidad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/velocidad.app/velocidad";
@@ -379,7 +421,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = velocidadTests/Info.plist;
+				INFOPLIST_FILE = velocidad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/velocidad.app/velocidad";
@@ -405,6 +447,7 @@
 				1998E0091AA55AD2009C089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1998E00A1AA55AD2009C089D /* Build configuration list for PBXNativeTarget "velocidadTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +456,7 @@
 				1998E00C1AA55AD2009C089D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

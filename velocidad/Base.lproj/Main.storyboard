@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,20 +17,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN9-j8-Ee5">
-                                <rect key="frame" x="107" y="81" width="107" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fN9-j8-Ee5">
+                                <rect key="frame" x="107" y="52" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="i45-X3-Sz6">
-                                <rect key="frame" x="0.0" y="222" width="325" height="346"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="i45-X3-Sz6">
+                                <rect key="frame" x="24" y="121" width="273" height="290"/>
                             </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sll-yd-Bd1">
+                                <rect key="frame" x="24" y="419" width="131" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="UcE-FX-60t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKN-3L-yag">
+                                <rect key="frame" x="163" y="419" width="134" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RvM-bh-O66" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="518" width="320" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="l2H-se-Zee"/>
+                                    <constraint firstAttribute="width" constant="320" id="lW0-Nz-aeG"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="i45-X3-Sz6" firstAttribute="leading" secondItem="sll-yd-Bd1" secondAttribute="leading" id="4T4-xE-oMt"/>
+                            <constraint firstItem="sll-yd-Bd1" firstAttribute="top" secondItem="i45-X3-Sz6" secondAttribute="bottom" constant="8" symbolic="YES" id="7zv-PI-f2W"/>
+                            <constraint firstItem="fN9-j8-Ee5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="32" id="CVz-bB-sip"/>
+                            <constraint firstItem="RvM-bh-O66" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="HWc-fr-3Hf"/>
+                            <constraint firstItem="hKN-3L-yag" firstAttribute="leading" secondItem="sll-yd-Bd1" secondAttribute="trailing" constant="8" symbolic="YES" id="O2u-66-9Gi"/>
+                            <constraint firstItem="i45-X3-Sz6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="OI9-4y-9PD"/>
+                            <constraint firstItem="hKN-3L-yag" firstAttribute="baseline" secondItem="sll-yd-Bd1" secondAttribute="baseline" id="Zh3-wa-2us"/>
+                            <constraint firstItem="i45-X3-Sz6" firstAttribute="top" secondItem="fN9-j8-Ee5" secondAttribute="bottom" constant="48" id="bt6-M2-ELb"/>
+                            <constraint firstItem="i45-X3-Sz6" firstAttribute="trailing" secondItem="hKN-3L-yag" secondAttribute="trailing" id="eAe-Ug-2tM"/>
+                            <constraint firstItem="i45-X3-Sz6" firstAttribute="centerX" secondItem="RvM-bh-O66" secondAttribute="centerX" id="fy1-9w-54z"/>
+                            <constraint firstItem="RvM-bh-O66" firstAttribute="top" secondItem="sll-yd-Bd1" secondAttribute="bottom" constant="78" id="gXS-0r-FFF"/>
+                            <constraint firstItem="fN9-j8-Ee5" firstAttribute="centerX" secondItem="i45-X3-Sz6" secondAttribute="centerX" id="kFI-DE-DTp"/>
+                            <constraint firstItem="fN9-j8-Ee5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="91" id="m6U-24-5gw"/>
+                            <constraint firstItem="RvM-bh-O66" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="nbo-l8-vWr"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="BannerView" destination="RvM-bh-O66" id="Vbr-jX-GX2"/>
+                        <outlet property="lat" destination="sll-yd-Bd1" id="1fD-Ls-lU8"/>
+                        <outlet property="long" destination="hKN-3L-yag" id="oCT-vI-vCr"/>
                         <outlet property="map" destination="i45-X3-Sz6" id="qQb-1Q-zaN"/>
                         <outlet property="speedValue" destination="fN9-j8-Ee5" id="omJ-A7-e9d"/>
                     </connections>

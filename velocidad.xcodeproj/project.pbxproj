@@ -24,6 +24,7 @@
 		1998E0341AA759EC009C089D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0331AA759EC009C089D /* MessageUI.framework */; };
 		1998E0361AA759F1009C089D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0351AA759F1009C089D /* StoreKit.framework */; };
 		1998E0381AA759F7009C089D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0371AA759F7009C089D /* SystemConfiguration.framework */; };
+		1998E03B1AA7779F009C089D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998E0391AA7779F009C089D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		1998DFE81AA55AD2009C089D /* velocidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velocidad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1998DFEC1AA55AD2009C089D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1998DFED1AA55AD2009C089D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1998DFEF1AA55AD2009C089D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1998DFEF1AA55AD2009C089D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1998DFF21AA55AD2009C089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1998DFF41AA55AD2009C089D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1998DFF71AA55AD2009C089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		1998E0331AA759EC009C089D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1998E0351AA759F1009C089D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1998E0371AA759F7009C089D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1998E0391AA7779F009C089D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				1998DFED1AA55AD2009C089D /* AppDelegate.swift */,
 				1998DFEF1AA55AD2009C089D /* ViewController.swift */,
 				1998DFF11AA55AD2009C089D /* Main.storyboard */,
+				1998E0391AA7779F009C089D /* SecondViewController.swift */,
 				1998DFF41AA55AD2009C089D /* Images.xcassets */,
 				1998DFF61AA55AD2009C089D /* LaunchScreen.xib */,
 				1998DFEB1AA55AD2009C089D /* Supporting Files */,
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1998E03B1AA7779F009C089D /* SecondViewController.swift in Sources */,
 				1998DFF01AA55AD2009C089D /* ViewController.swift in Sources */,
 				1998DFEE1AA55AD2009C089D /* AppDelegate.swift in Sources */,
 			);

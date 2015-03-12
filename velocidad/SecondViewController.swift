@@ -10,23 +10,20 @@ import UIKit
 import CoreLocation
 import GoogleMobileAds
 
-class SecondViewController: UIViewController, CLLocationManagerDelegate {
+class SecondViewController: UIViewController, CLLocationManagerDelegate, UIApplicationDelegate {
 
     let locationManager = CLLocationManager()
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var isoLabel: UILabel!
     @IBOutlet weak var countryLabel: UILabel!
     @IBOutlet weak var postalLabel: UILabel!
-    @IBOutlet weak var administrativeLabel: UILabel!
-    @IBOutlet weak var subadministrativeLabel: UILabel!
     @IBOutlet weak var localityLabel: UILabel!
     @IBOutlet weak var sublocalityLabel: UILabel!
-    @IBOutlet weak var regionLabel: UILabel!
-    @IBOutlet weak var areasLabel: UILabel!
-    @IBOutlet weak var inlandwaterLabel: UILabel!
-    @IBOutlet weak var oceanLabel: UILabel!
+    @IBOutlet weak var latitude: UILabel!
+    @IBOutlet weak var longitude: UILabel!
+    var auxlatitude = ""
+    var auxlongitude = ""
     
     @IBOutlet weak var BannerView2: GADBannerView!
     
@@ -44,10 +41,12 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestAlwaysAuthorization()
         locationManager.startUpdatingLocation()
-
-
+        
+       
+        
         // Do any additional setup after loading the view.
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -59,84 +58,35 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate {
         
         
         CLGeocoder().reverseGeocodeLocation(manager.location, completionHandler: { (placemarks, error) -> Void in
-            
-            
-            
-            if (error != nil) {
-                
-                
-                
-                println("Error:" + error.localizedDescription)
-                
-                return
-                
-                
-                
-            }
-            
-            
-            
-            if placemarks.count > 0 {
-                
-                
+     
                 
                 let pm = placemarks[0] as CLPlacemark
                 
                 self.nameLabel.text! = pm.name
-                self.isoLabel.text = pm.ISOcountryCode
                 self.countryLabel.text! = pm.country
                 self.postalLabel.text! = pm.postalCode
                 self.localityLabel.text! = pm.locality
                 self.sublocalityLabel.text! = pm.subLocality
-             
-                
-
-                
-                
-
-                
-
-                
-
-
-                
-
-
-
-
-                
-                
-                
-                
-                
-            }else {
-                
-                println("Error with data")
-                
-            }
-            
-            
-            
-            
+    
             
         })
         
+        let location = locations.last as CLLocation
         
-        
+        let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+
+        latitude.text = "\(center.latitude)"
+        longitude.text = "\(center.longitude)"
     }
     
     
     
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+        
 
 }

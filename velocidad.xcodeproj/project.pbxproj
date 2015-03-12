@@ -13,7 +13,6 @@
 		1998DFF51AA55AD2009C089D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF41AA55AD2009C089D /* Images.xcassets */; };
 		1998DFF81AA55AD2009C089D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1998DFF61AA55AD2009C089D /* LaunchScreen.xib */; };
 		1998E0041AA55AD2009C089D /* velocidadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998E0031AA55AD2009C089D /* velocidadTests.swift */; };
-		1998E0241AA7599F009C089D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0231AA7599F009C089D /* GoogleMobileAds.framework */; };
 		1998E0261AA759CA009C089D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0251AA759CA009C089D /* AdSupport.framework */; };
 		1998E0281AA759CF009C089D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0271AA759CF009C089D /* AudioToolbox.framework */; };
 		1998E02A1AA759D5009C089D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0291AA759D5009C089D /* AVFoundation.framework */; };
@@ -25,6 +24,7 @@
 		1998E0361AA759F1009C089D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0351AA759F1009C089D /* StoreKit.framework */; };
 		1998E0381AA759F7009C089D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1998E0371AA759F7009C089D /* SystemConfiguration.framework */; };
 		1998E03B1AA7779F009C089D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1998E0391AA7779F009C089D /* SecondViewController.swift */; };
+		19A47C901AB11BAC00B83C1C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A47C8F1AB11BAC00B83C1C /* GoogleMobileAds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		1998DFF71AA55AD2009C089D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1998DFFD1AA55AD2009C089D /* velocidadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = velocidadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1998E0031AA55AD2009C089D /* velocidadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = velocidadTests.swift; sourceTree = "<group>"; };
-		1998E0231AA7599F009C089D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../GoogleMobileAdsSdkiOS-7.0.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
 		1998E0251AA759CA009C089D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		1998E0271AA759CF009C089D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1998E0291AA759D5009C089D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -59,6 +58,7 @@
 		1998E0351AA759F1009C089D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1998E0371AA759F7009C089D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1998E0391AA7779F009C089D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		19A47C8F1AB11BAC00B83C1C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = velocidad/GoogleMobileAds.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,7 @@
 				1998E0381AA759F7009C089D /* SystemConfiguration.framework in Frameworks */,
 				1998E0361AA759F1009C089D /* StoreKit.framework in Frameworks */,
 				1998E0341AA759EC009C089D /* MessageUI.framework in Frameworks */,
+				19A47C901AB11BAC00B83C1C /* GoogleMobileAds.framework in Frameworks */,
 				1998E0311AA759E7009C089D /* EventKit.framework in Frameworks */,
 				1998E0321AA759E7009C089D /* EventKitUI.framework in Frameworks */,
 				1998E02E1AA759DF009C089D /* CoreTelephony.framework in Frameworks */,
@@ -76,7 +77,6 @@
 				1998E02A1AA759D5009C089D /* AVFoundation.framework in Frameworks */,
 				1998E0281AA759CF009C089D /* AudioToolbox.framework in Frameworks */,
 				1998E0261AA759CA009C089D /* AdSupport.framework in Frameworks */,
-				1998E0241AA7599F009C089D /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +93,7 @@
 		1998DFDF1AA55AD1009C089D = {
 			isa = PBXGroup;
 			children = (
+				19A47C8F1AB11BAC00B83C1C /* GoogleMobileAds.framework */,
 				1998E0371AA759F7009C089D /* SystemConfiguration.framework */,
 				1998E0351AA759F1009C089D /* StoreKit.framework */,
 				1998E0331AA759EC009C089D /* MessageUI.framework */,
@@ -103,7 +104,6 @@
 				1998E0291AA759D5009C089D /* AVFoundation.framework */,
 				1998E0271AA759CF009C089D /* AudioToolbox.framework */,
 				1998E0251AA759CA009C089D /* AdSupport.framework */,
-				1998E0231AA7599F009C089D /* GoogleMobileAds.framework */,
 				1998DFEA1AA55AD2009C089D /* velocidad */,
 				1998E0001AA55AD2009C089D /* velocidadTests */,
 				1998DFE91AA55AD2009C089D /* Products */,
@@ -377,6 +377,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ricardotrevino/Desktop/GoogleMobileAdsSdkiOS-7.0.0",
+					"$(PROJECT_DIR)/velocidad",
 				);
 				INFOPLIST_FILE = velocidad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -391,6 +392,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/ricardotrevino/Desktop/GoogleMobileAdsSdkiOS-7.0.0",
+					"$(PROJECT_DIR)/velocidad",
 				);
 				INFOPLIST_FILE = velocidad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

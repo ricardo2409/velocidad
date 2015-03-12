@@ -11,7 +11,7 @@ import MapKit
 import CoreLocation
 import GoogleMobileAds
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, UIApplicationDelegate {
     
 
     let locationManager = CLLocationManager()
@@ -55,7 +55,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         var velocidad:CLLocationSpeed = (3.6 * manager.location!.speed)
         if (velocidad >= 0) {
-            speedValue.text = "\(lround(velocidad))"
+            speedValue.text = "\(lround(velocidad)) km/h"
         }
         
        let location = locations.last as CLLocation
@@ -72,7 +72,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         lat.text = "\(center.latitude)"
         long.text = "\(center.longitude)"
 
-        
+//        var auxlat = center.latitude
+//        var auxlong = center.longitude
+
         
         self.map.addAnnotation(point)
         
@@ -81,6 +83,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         
     }
+    
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        // Get the new view controller using
+//       
+//        
+//        
+//        let destinationVC = segue.destinationViewController as SecondViewController
+//        destinationVC.auxlatitude = lat.text!
+//        destinationVC.auxlongitude = long.text!
+//
+//     
+//        
+//        // Pass the selected object to the new view controller.
+//    }
+    
+
     
 
     override func didReceiveMemoryWarning() {

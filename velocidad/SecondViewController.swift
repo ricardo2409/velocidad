@@ -33,7 +33,7 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate, UIAppli
         self.BannerView2.adUnitID = "ca-app-pub-1712455002260869/3408924030"
         self.BannerView2.rootViewController = self
         var request: GADRequest = GADRequest()
-        request.testDevices = ["c7fca2dcdca2a46cf8e3531f6a6c1d4d"]
+        //request.testDevices = ["c7fca2dcdca2a46cf8e3531f6a6c1d4d"]
         self.BannerView2.loadRequest(request)
         
         

@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="i45-X3-Sz6">
-                                <rect key="frame" x="24" y="121" width="273" height="290"/>
+                                <rect key="frame" x="16" y="121" width="288" height="290"/>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sll-yd-Bd1">
                                 <rect key="frame" x="24" y="419" width="131" height="21"/>
@@ -60,8 +60,8 @@
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="RvM-bh-O66" secondAttribute="bottom" id="T9M-NF-Z1u"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RvM-bh-O66" secondAttribute="trailing" constant="-16" id="V0r-2e-hQZ"/>
                             <constraint firstItem="fN9-j8-Ee5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="39" id="VVn-fC-BVd"/>
-                            <constraint firstItem="i45-X3-Sz6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="ZrD-nL-nJG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="i45-X3-Sz6" secondAttribute="trailing" constant="7" id="cb5-OL-jaG"/>
+                            <constraint firstItem="i45-X3-Sz6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ZrD-nL-nJG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i45-X3-Sz6" secondAttribute="trailing" id="cb5-OL-jaG"/>
                             <constraint firstItem="fN9-j8-Ee5" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="etn-08-YbJ"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hKN-3L-yag" secondAttribute="bottom" constant="128" id="iHf-Ev-Whu"/>
                             <constraint firstItem="i45-X3-Sz6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="57" id="y5A-m1-b5d"/>

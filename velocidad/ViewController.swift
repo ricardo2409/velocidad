@@ -17,8 +17,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIApplication
     let locationManager = CLLocationManager()
     @IBOutlet weak var speedValue: UILabel!
     @IBOutlet weak var map: MKMapView!
-    @IBOutlet weak var lat: UILabel!
-    @IBOutlet weak var long: UILabel!
     @IBOutlet weak var BannerView: GADBannerView!
     
     override func viewDidLoad() {
@@ -39,10 +37,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIApplication
             locationManager.startUpdatingLocation()
             
         }
-      
-        
-        
-        
     }
     
     
@@ -61,22 +55,21 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIApplication
        let location = locations.last as CLLocation
       
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
+        let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005))
         
-        self.map.setRegion(region, animated: true)
+        self.map.setRegion(region, animated: false)
         point = MKPointAnnotation()
 
         point.coordinate = location.coordinate
         point.title = "Ricardo's iPhone"
         point.subtitle = "Aquí"
-        lat.text = "\(center.latitude)"
-        long.text = "\(center.longitude)"
+        //lat.text = "\(center.latitude)"
+        //long.text = "\(center.longitude)"
 
-//        var auxlat = center.latitude
-//        var auxlong = center.longitude
 
         
         self.map.addAnnotation(point)
+    
         
         //salva batería
         //locationManager.stopUpdatingLocation()

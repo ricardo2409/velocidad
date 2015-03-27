@@ -15,16 +15,11 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate, UIAppli
     let locationManager = CLLocationManager()
     
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var countryLabel: UILabel!
     @IBOutlet weak var postalLabel: UILabel!
     @IBOutlet weak var localityLabel: UILabel!
-    @IBOutlet weak var sublocalityLabel: UILabel!
     @IBOutlet weak var latitude: UILabel!
     @IBOutlet weak var longitude: UILabel!
-    var auxlatitude = ""
-    var auxlongitude = ""
-    
     @IBOutlet weak var BannerView2: GADBannerView!
     
     override func viewDidLoad() {
@@ -66,7 +61,7 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate, UIAppli
                 self.countryLabel.text! = pm.country
                 self.postalLabel.text! = pm.postalCode
                 self.localityLabel.text! = pm.locality
-                self.sublocalityLabel.text! = pm.subLocality
+              
     
             
         })

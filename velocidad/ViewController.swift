@@ -58,8 +58,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIApplication
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005))
         
         self.map.setRegion(region, animated: false)
+        
         point = MKPointAnnotation()
-
         point.coordinate = location.coordinate
         point.title = "Ricardo's iPhone"
         point.subtitle = "Aquí"

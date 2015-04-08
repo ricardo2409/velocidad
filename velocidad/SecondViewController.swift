@@ -58,7 +58,7 @@ class SecondViewController: UIViewController, CLLocationManagerDelegate, UIAppli
                 let pm = placemarks[0] as CLPlacemark
                 
                 self.nameLabel.text! = pm.name
-                self.countryLabel.text! = pm.country
+                self.countryLabel.text! = pm.subLocality
                 self.postalLabel.text! = pm.postalCode
                 self.localityLabel.text! = pm.locality
               

@@ -37,6 +37,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIApplication
             locationManager.startUpdatingLocation()
             
         }
+        map.showsUserLocation = true
     }
     
     
@@ -68,7 +69,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UIApplication
 
 
         
-        self.map.addAnnotation(point)
+        //self.map.addAnnotation(point)
     
         
         //salva batería
